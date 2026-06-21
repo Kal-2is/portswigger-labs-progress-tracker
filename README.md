@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PortSwigger Web Security Academy - Solved Labs
 
 ![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-0-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--00--00-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-0%25-purple)
@@ -39,3 +40,4 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 3  | 2026-00-00 |                |                                             |             | N/A          |
 | 4  | 2026-00-00 |                |                                             |             | N/A          |
 | 5  | 2026-00-00 |                |                                             |             | N/A          |
+=======
