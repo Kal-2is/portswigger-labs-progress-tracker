@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-0-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--00--00-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-0%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-13-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--23-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-0%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
@@ -33,11 +33,19 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 
 ## Solved Labs
 
-| No | Date       | Topic          | Lab Title                                   | Difficulty  | Writeup Link |
+| No | Date          | Topic            | Lab Title                                   | Difficulty  | Writeup Link |
 |----|------------|----------------|---------------------------------------------|-------------|--------------|
-| 1  | 2026-06-16 |      Sql injection          | SQL injection attack, querying the database type and version on Oracle      |       practitioner      | <a href="SQL Injection Attack - Querying the Database Type and Version on Oracle.md">this</a>|
-| 2  | 2026-07-17 |      Sql injectioin          |      SQL injection vulnerability in WHERE clause allowing retrieval of hidden data  |    apprentice         | N/A          |
-| 3  | 2026-07-17 |       Sql injection         |  SQL injection vulnerability allowing login bypass |       apprentice      | N/A          |
-| 4  | 2026-07-17 |  Sql injection |  SQL injection attack, querying the database type and version on Oracle   |    apprentice   | N/A          |
-| 5  | 2026-00-00 |                |                                             |             | N/A          |
+| 1  | 2026-06-16 |      Sql injection          | SQL injection attack, querying the database type and version on Oracle      |       practitioner      | <a href="assets/SQL Injection Attack - Querying the Database Type and Version on Oracle.md">this</a>|
+| 2  | 2026-06-17 |      Sql injectioin          |      SQL injection vulnerability in WHERE clause allowing retrieval of hidden data  |    apprentice         | N/A          |
+| 3  | 2026-06-17 |       Sql injection         |  SQL injection vulnerability allowing login bypass |       apprentice      | N/A          |
+| 4  | 2026-06-17 |  Sql injection |  SQL injection attack, querying the database type and version on Oracle   |    apprentice   | N/A          |
+| 5  | 2026-06-18 |   Sql injection  |   SQL injection attack, querying the database type and version on MySQL and Microsoft   |    practitioner         | N/A          |
+|6 | 2026-06-18| Sql injection | SQL injection attack, listing the database contents on non-Oracle databases| practitioner|N/A|
+|7 | 2026-06-18| Sql injection | SQL injection attack, listing the database contents on Oracle| practitioner|N/A|
+|8| 2026-06-20 | Sql injection | SQL injection UNION attack, determining the number of columns returned by the query|practitioner|N/A|
+| 9  | 2026-06-23 | Autherntication | Username enumeration via different responses | apprentice         |N/A|
+| 10  | 2026-06-23 | Autherntication | 2FA simple bypass | apprentice         |N/A|
+| 11 | 2026-06-23 | Autherntication | Password reset broken logic | apprentice         |N/A|
+| 12 | 2026-06-23 | Autherntication | Username enumeration via subtly different responses | practitioner |N/A|
+
 =======
