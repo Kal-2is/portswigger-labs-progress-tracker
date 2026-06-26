@@ -49,8 +49,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 12 | 2026-06-23 | Autherntication | Username enumeration via subtly different responses | practitioner |N/A|
 | 13 | 2026-06-23 | Autherntication | Username enumeration via response timing| practitioner |<a href="./assets/Username enumeration via response timing.md">here</a>|
 | 14 | 2026-06-24 | Autherntication | Broken brute-force protection, IP block | practitioner |<a href="./assets/broken1.md">here</a>|
-| 15| 2026-06-24 | Autherntication | 
-Username enumeration via account lock |N/A|
+| 15| 2026-06-24 | Autherntication |Username enumeration via account lock| practitioner |N/A|
 | 16  | 2026-06-25 | Autherntication | 2FA broken logic | apprentice         |N/A|
 | 17  | 2026-06-25 | Autherntication | Brute-forcing a stay-logged-in cookie | apprentice         |N/A|
 | 18 | 2026-06-25 | Autherntication |Offline password cracking | apprentice         |N/A|
