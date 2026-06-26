@@ -1,13 +1,13 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-13-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--23-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-0%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-22-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--06--26-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-22%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 5 of 61
-- **Practitioner**: 12of 174
+- **Practitioner**: 15 of 174
 - **Expert**: 2 of 39
 
 ## Categories Covered
@@ -49,8 +49,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 12 | 2026-06-23 | Autherntication | Username enumeration via subtly different responses | practitioner |N/A|
 | 13 | 2026-06-23 | Autherntication | Username enumeration via response timing| practitioner |<a href="./assets/Username enumeration via response timing.md">here</a>|
 | 14 | 2026-06-24 | Autherntication | Broken brute-force protection, IP block | practitioner |<a href="./assets/broken1.md">here</a>|
-| 15| 2026-06-24 | Autherntication | 
-Username enumeration via account lock |N/A|
+| 15| 2026-06-24 | Autherntication | Username enumeration via account lock |N/A|
 | 16  | 2026-06-25 | Autherntication | 2FA broken logic | apprentice         |N/A|
 | 17  | 2026-06-25 | Autherntication | Brute-forcing a stay-logged-in cookie | apprentice         |N/A|
 | 18 | 2026-06-25 | Autherntication |Offline password cracking | apprentice         |N/A|
