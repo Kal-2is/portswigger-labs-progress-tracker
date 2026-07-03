@@ -6,8 +6,8 @@
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 6 of 61
-- **Practitioner**: 20 of 174
+- **Apprentice**: 12 of 61
+- **Practitioner**: 21 of 174
 - **Expert**: 2 of 39
 
 ## Categories Covered
@@ -16,6 +16,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **SQL injection**: 8/18 lab
 - **Path Traversal**: 6/6
 - **Access control**: 0/13 lab
+- **Cross-site scripting** 7/31
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -64,4 +65,11 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 26 | 2026-07-01 | Path traversal | File path traversal, traversal sequences stripped with superfluous URL-decode | practitioner | N/A |
 | 27 | 2026-07-01 | Path traversal | File path traversal, validation of start of path | practitioner | N/A |
 | 28 | 2026-07-01 | Path traversal | File path traversal, validation of file extension with null byte bypass | practitioner | N/A |
+| 29 | 2026-07-03 | Cross-site scripting | Reflected XSS into HTML context with nothing encoded | apprentice | N/A |
+| 30 | 2026-07-03 | Cross-site scripting | Stored XSS into HTML context with nothing encoded | apprentice | N/A |
+| 31 | 2026-07-03 | Cross-site scripting | DOM XSS in document.write sink using source location.search | apprentice | N/A |
+| 32 | 2026-07-03 | Cross-site scripting | DOM XSS in innerHTML sink using source location.search | apprentice | N/A |
+| 33 | 2026-07-03 | Cross-site scripting | DOM XSS in jQuery anchor href attribute sink using location.search source | apprentice | N/A |
+| 34 | 2026-07-03 | Cross-site scripting | DOM XSS in jQuery selector sink using a hashchange event | apprentice | N/A |
+| 35 | 2026-07-03 | Cross-site scripting | DOM XSS in document.write sink using source location.search inside a select element | practitioner | N/A |
 =======
