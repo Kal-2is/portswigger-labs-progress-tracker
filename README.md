@@ -1,13 +1,13 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-44-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--04-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-17%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-49-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--04-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-17%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 12 of 61
-- **Practitioner**: 30 of 174
+- **Apprentice**: 13 of 61
+- **Practitioner**: 34 of 174
 - **Expert**: 2 of 39
 
 ## Categories Covered
@@ -18,6 +18,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Access control**: 0/13 lab
 - **Cross-site scripting** 7/31
 - **Web cache poisoning**: 9/13
+- **Command injection**:5/5
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -82,4 +83,9 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 42 | 2026-07-04 | Web cache poisoning | Parameter cloaking | practitioner | N/A |
 | 43 | 2026-07-04 | Web cache poisoning | Web cache poisoning via a fat GET request | practitioner | N/A |
 | 44 | 2026-07-04 | Web cache poisoning | URL normalization | practitioner | N/A |
+| 45 | 2026-07-05 | OS command injection | OS command injection, simple case | apprentice | N/A |
+| 46 | 2026-07-05 | OS command injection | Blind OS command injection with time delays | practitioner | N/A |
+| 47 | 2026-07-05 | OS command injection | Blind OS command injection with output redirection | practitioner | N/A |
+| 48 | 2026-07-05 | OS command injection | Blind OS command injection with out-of-band interaction | practitioner | N/A |
+| 49 | 2026-07-05 | OS command injection | Blind OS command injection with out-of-band data exfiltration | practitioner | N/A |
 =======
