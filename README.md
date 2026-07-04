@@ -1,13 +1,13 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-28-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--01-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/Completed-11%-25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-44-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--04-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-17%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 12 of 61
-- **Practitioner**: 21 of 174
+- **Practitioner**: 30 of 174
 - **Expert**: 2 of 39
 
 ## Categories Covered
@@ -17,6 +17,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Path Traversal**: 6/6
 - **Access control**: 0/13 lab
 - **Cross-site scripting** 7/31
+- **Web cache poisoning**: 9/13
 
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -72,4 +73,13 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 33 | 2026-07-03 | Cross-site scripting | DOM XSS in jQuery anchor href attribute sink using location.search source | apprentice | N/A |
 | 34 | 2026-07-03 | Cross-site scripting | DOM XSS in jQuery selector sink using a hashchange event | apprentice | N/A |
 | 35 | 2026-07-03 | Cross-site scripting | DOM XSS in document.write sink using source location.search inside a select element | practitioner | N/A |
+| 36 | 2026-07-04 | Web cache poisoning | Web cache poisoning with an unkeyed header | practitioner | N/A |
+| 37 | 2026-07-04 | Web cache poisoning | Web cache poisoning with an unkeyed cookie | practitioner | N/A |
+| 38 | 2026-07-04 | Web cache poisoning | Web cache poisoning with multiple headers | practitioner | N/A |
+| 39 | 2026-07-04 | Web cache poisoning | Targeted web cache poisoning using an unknown header | practitioner | N/A |
+| 40 | 2026-07-04 | Web cache poisoning | Web cache poisoning via an unkeyed query string | practitioner | N/A |
+| 41 | 2026-07-04 | Web cache poisoning | Web cache poisoning via an unkeyed query parameter | practitioner | N/A |
+| 42 | 2026-07-04 | Web cache poisoning | Parameter cloaking | practitioner | N/A |
+| 43 | 2026-07-04 | Web cache poisoning | Web cache poisoning via a fat GET request | practitioner | N/A |
+| 44 | 2026-07-04 | Web cache poisoning | URL normalization | practitioner | N/A |
 =======
