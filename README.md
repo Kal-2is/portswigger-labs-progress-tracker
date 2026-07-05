@@ -1,25 +1,26 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-49-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--04-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-17%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-56-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--05-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-20%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 13 of 61
-- **Practitioner**: 34 of 174
-- **Expert**: 2 of 39
+- **Apprentice**: 15 of 61
+- **Practitioner**: 38 of 174
+- **Expert**: 4 of 39
 
 ## Categories Covered
 
 - **Authentication vulnerabilities**: 14/14 labs
 - **SQL injection**: 8/18 lab
 - **Path Traversal**: 6/6
-- **Access control**: 0/13 lab
 - **Cross-site scripting** 7/31
-- **Web cache poisoning**: 9/13
 - **Command injection**:5/5
-
+- **Server-side request forgery (SSRF)**: 7/7
+- **Web cache poisoning**: 9/13
+- **Access control**: 0/13 lab
+  
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
 - **Tools Used**: Burp Suite
@@ -88,4 +89,11 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 47 | 2026-07-05 | OS command injection | Blind OS command injection with output redirection | practitioner | N/A |
 | 48 | 2026-07-05 | OS command injection | Blind OS command injection with out-of-band interaction | practitioner | N/A |
 | 49 | 2026-07-05 | OS command injection | Blind OS command injection with out-of-band data exfiltration | practitioner | N/A |
+| 50 | 2026-07-06 | Server-side request forgery (SSRF) | Basic SSRF against the local server | apprentice | N/A |
+| 51 | 2026-07-06 | Server-side request forgery (SSRF) | Basic SSRF against another back-end system | apprentice | N/A |
+| 52 | 2026-07-06 | Server-side request forgery (SSRF) | Blind SSRF with out-of-band detection | practitioner | N/A |
+| 53 | 2026-07-06 | Server-side request forgery (SSRF) | SSRF with blacklist-based input filter | practitioner | N/A |
+| 54 | 2026-07-06 | Server-side request forgery (SSRF) | SSRF with filter bypass via open redirection vulnerability | practitioner | N/A |
+| 55 | 2026-07-06 | Server-side request forgery (SSRF) | Blind SSRF with Shellshock exploitation | expert | N/A |
+| 56 | 2026-07-06 | Server-side request forgery (SSRF) | SSRF with whitelist-based input filter | expert | N/A |
 =======
