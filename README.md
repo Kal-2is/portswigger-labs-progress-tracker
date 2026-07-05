@@ -89,11 +89,11 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 47 | 2026-07-05 | OS command injection | Blind OS command injection with output redirection | practitioner | N/A |
 | 48 | 2026-07-05 | OS command injection | Blind OS command injection with out-of-band interaction | practitioner | N/A |
 | 49 | 2026-07-05 | OS command injection | Blind OS command injection with out-of-band data exfiltration | practitioner | N/A |
-| 50 | 2026-07-06 | Server-side request forgery (SSRF) | Basic SSRF against the local server | apprentice | N/A |
-| 51 | 2026-07-06 | Server-side request forgery (SSRF) | Basic SSRF against another back-end system | apprentice | N/A |
-| 52 | 2026-07-06 | Server-side request forgery (SSRF) | Blind SSRF with out-of-band detection | practitioner | N/A |
-| 53 | 2026-07-06 | Server-side request forgery (SSRF) | SSRF with blacklist-based input filter | practitioner | N/A |
-| 54 | 2026-07-06 | Server-side request forgery (SSRF) | SSRF with filter bypass via open redirection vulnerability | practitioner | N/A |
-| 55 | 2026-07-06 | Server-side request forgery (SSRF) | Blind SSRF with Shellshock exploitation | expert | N/A |
-| 56 | 2026-07-06 | Server-side request forgery (SSRF) | SSRF with whitelist-based input filter | expert | N/A |
+| 50 | 2026-07-05 | Server-side request forgery (SSRF) | Basic SSRF against the local server | apprentice | N/A |
+| 51 | 2026-07-05 | Server-side request forgery (SSRF) | Basic SSRF against another back-end system | apprentice | N/A |
+| 52 | 2026-07-05 | Server-side request forgery (SSRF) | Blind SSRF with out-of-band detection | practitioner | N/A |
+| 53 | 2026-07-05 | Server-side request forgery (SSRF) | SSRF with blacklist-based input filter | practitioner | N/A |
+| 54 | 2026-07-05 | Server-side request forgery (SSRF) | SSRF with filter bypass via open redirection vulnerability | practitioner | N/A |
+| 55 | 2026-07-05 | Server-side request forgery (SSRF) | Blind SSRF with Shellshock exploitation | expert | N/A |
+| 56 | 2026-07-05 | Server-side request forgery (SSRF) | SSRF with whitelist-based input filter | expert | N/A |
 =======
