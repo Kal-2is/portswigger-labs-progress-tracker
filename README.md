@@ -1,13 +1,13 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-56-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--05-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-20%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-75-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--11-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-20%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 15 of 61
-- **Practitioner**: 38 of 174
+- **Apprentice**: 28 of 61
+- **Practitioner**: 44 of 174
 - **Expert**: 4 of 39
 
 ## Categories Covered
@@ -19,7 +19,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Command injection**:5/5
 - **Server-side request forgery (SSRF)**: 7/7
 - **Web cache poisoning**: 9/13
-- **Access control**: 0/13 lab
+- **Access control**: 13/13 lab
+- **Business logic vulnerabilities**: 6/6
   
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -96,4 +97,24 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 54 | 2026-07-05 | Server-side request forgery (SSRF) | SSRF with filter bypass via open redirection vulnerability | practitioner | N/A |
 | 55 | 2026-07-05 | Server-side request forgery (SSRF) | Blind SSRF with Shellshock exploitation | expert | N/A |
 | 56 | 2026-07-05 | Server-side request forgery (SSRF) | SSRF with whitelist-based input filter | expert | N/A |
+| 57 | 2026-07-07 | Access control vulnerabilities | Unprotected admin functionality | apprentice | N/A |
+| 58 | 2026-07-07 | Access control vulnerabilities | Unprotected admin functionality with unpredictable URL | apprentice | N/A |
+| 59 | 2026-07-07 | Access control vulnerabilities | User role controlled by request parameter | apprentice | N/A |
+| 60 | 2026-07-07 | Access control vulnerabilities | User role can be modified in user profile | apprentice | N/A |
+| 61 | 2026-07-07 | Access control vulnerabilities | User ID controlled by request parameter | apprentice | N/A |
+| 62 | 2026-07-07 | Access control vulnerabilities | User ID controlled by request parameter, with unpredictable user IDs | apprentice | N/A |
+| 63 | 2026-07-07 | Access control vulnerabilities | User ID controlled by request parameter with data leakage in redirect | apprentice | N/A |
+| 64 | 2026-07-08 | Access control vulnerabilities | User ID controlled by request parameter with password disclosure | apprentice | N/A |
+| 65 | 2026-07-08 | Access control vulnerabilities | Insecure direct object references | apprentice | N/A |
+| 66 | 2026-07-08 | Access control vulnerabilities | URL-based access control can be circumvented | practitioner | N/A |
+| 67 | 2026-07-08 | Access control vulnerabilities | Method-based access control can be circumvented | practitioner | N/A |
+| 68 | 2026-07-09 | Access control vulnerabilities | Multi-step process with no access control on one step | practitioner | N/A |
+| 69 | 2026-07-09 | Access control vulnerabilities | Referer-based access control | practitioner | N/A |
+| 70 | 2026-07-10 | Business logic vulnerabilities | Excessive trust in client-side controls | apprentice | N/A |
+| 71 | 2026-07-10 | Business logic vulnerabilities | High-level logic vulnerability | apprentice | N/A |
+| 72 | 2026-07-10 | Business logic vulnerabilities | Inconsistent security controls | apprentice | N/A |
+| 73 | 2026-07-11 | Business logic vulnerabilities | Flawed enforcement of business rules | apprentice | N/A |
+| 74 | 2026-07-11 | Business logic vulnerabilities | Low-level logic flaw | practitioner | N/A |
+| 75 | 2026-07-11 | Business logic vulnerabilities | Inconsistent handling of exceptional input | practitioner | N/A |
+
 =======
