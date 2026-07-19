@@ -1,13 +1,13 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-75-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--11-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-20%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-87-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--18-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-26%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 28 of 61
-- **Practitioner**: 44 of 174
+- **Apprentice**: 32 of 61
+- **Practitioner**: 52 of 174
 - **Expert**: 4 of 39
 
 ## Categories Covered
@@ -21,6 +21,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Web cache poisoning**: 9/13
 - **Access control**: 13/13 lab
 - **Business logic vulnerabilities**: 6/6
+- **File upload vulnerabilities**: 6/7
+- **JWT**:6/8
   
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -116,5 +118,16 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 73 | 2026-07-11 | Business logic vulnerabilities | Flawed enforcement of business rules | apprentice | N/A |
 | 74 | 2026-07-11 | Business logic vulnerabilities | Low-level logic flaw | practitioner | N/A |
 | 75 | 2026-07-11 | Business logic vulnerabilities | Inconsistent handling of exceptional input | practitioner | N/A |
-
+| 76 | 2026-07-13 | File upload vulnerabilities | Remote code execution via web shell upload | apprentice | N/A |
+| 77 | 2026-07-13 | File upload vulnerabilities | Web shell upload via Content-Type restriction bypass | apprentice | N/A |
+| 78 | 2026-07-13 | File upload vulnerabilities | Web shell upload via path traversal | practitioner | N/A |
+| 79 | 2026-07-14 | File upload vulnerabilities | Web shell upload via extension blacklist bypass | practitioner | N/A |
+| 80 | 2026-07-14 | File upload vulnerabilities | Web shell upload via obfuscated file extension | practitioner | N/A |
+| 81 | 2026-07-14 | File upload vulnerabilities | Remote code execution via polyglot web shell upload | practitioner | N/A |
+| 82 | 2026-07-15 | JWT | JWT authentication bypass via unverified signature | apprentice | N/A |
+| 83 | 2026-07-15 | JWT | JWT authentication bypass via flawed signature verification | apprentice | N/A |
+| 84 | 2026-07-16 | JWT | JWT authentication bypass via weak signing key | practitioner | N/A |
+| 85 | 2026-07-16 | JWT | JWT authentication bypass via jwk header injection | practitioner | N/A |
+| 86 | 2026-07-17 | JWT | JWT authentication bypass via jku header injection | practitioner | N/A |
+| 87 | 2026-07-18 | JWT | JWT authentication bypass via kid header path traversal | practitioner | N/A |
 =======
