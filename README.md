@@ -1,13 +1,13 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-87-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--18-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-26%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-93-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--25-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-35%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 32 of 61
-- **Practitioner**: 52 of 174
+- **Apprentice**: 33 of 61
+- **Practitioner**: 56 of 174
 - **Expert**: 4 of 39
 
 ## Categories Covered
@@ -23,6 +23,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Business logic vulnerabilities**: 6/6
 - **File upload vulnerabilities**: 6/7
 - **JWT**:6/8
+- **Race conditions**: 6/7
   
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -130,4 +131,10 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 85 | 2026-07-16 | JWT | JWT authentication bypass via jwk header injection | practitioner | N/A |
 | 86 | 2026-07-17 | JWT | JWT authentication bypass via jku header injection | practitioner | N/A |
 | 87 | 2026-07-18 | JWT | JWT authentication bypass via kid header path traversal | practitioner | N/A |
+| 88 | 2026-07-20 | Race conditions | Limit overrun race conditions | apprentice | N/A |
+| 89 | 2026-07-20 | Race conditions | Bypassing rate limits via race conditions | practitioner | N/A |
+| 90 | 2026-07-21 | Race conditions | Multi-endpoint race conditions | practitioner | N/A |
+| 91 | 2026-07-22 | Race conditions | Single-endpoint race conditions | practitioner | N/A |
+| 92 | 2026-07-23 | Race conditions | Exploiting time-sensitive vulnerabilities | practitioner | N/A |
+| 93 | 2026-07-25 | Race conditions | Partial construction race conditions | expert | N/A |
 =======
