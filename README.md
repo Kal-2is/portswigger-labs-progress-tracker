@@ -1,14 +1,14 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-93-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--07--25-yellow) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-35%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-102-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--01-orange) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-38%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 33 of 61
-- **Practitioner**: 56 of 174
-- **Expert**: 4 of 39
+- **Apprentice**: 34 of 61
+- **Practitioner**: 64 of 174
+- **Expert**: 5 of 39
 
 ## Categories Covered
 
@@ -24,6 +24,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **File upload vulnerabilities**: 6/7
 - **JWT**:6/8
 - **Race conditions**: 6/7
+- **Cross-site request forgery (CSRF)**: 6/14
+- **Server-side template injection**: 3/7
   
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -137,4 +139,13 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 91 | 2026-07-22 | Race conditions | Single-endpoint race conditions | practitioner | N/A |
 | 92 | 2026-07-23 | Race conditions | Exploiting time-sensitive vulnerabilities | practitioner | N/A |
 | 93 | 2026-07-25 | Race conditions | Partial construction race conditions | expert | N/A |
+| 94 | 2026-07-27 | Cross-site request forgery (CSRF) | CSRF vulnerability with no defenses | apprentice | N/A |
+| 95 | 2026-07-27 | Cross-site request forgery (CSRF) | CSRF where token validation depends on request method | practitioner | N/A |
+| 96 | 2026-07-28 | Cross-site request forgery (CSRF) | CSRF where token validation depends on token being present | practitioner | N/A |
+| 97 | 2026-07-28 | Cross-site request forgery (CSRF) | CSRF where token is not tied to user session | practitioner | N/A |
+| 98 | 2026-07-29 | Cross-site request forgery (CSRF) | CSRF where token is tied to non-session cookie | practitioner | N/A |
+| 99 | 2026-08-29 | Cross-site request forgery (CSRF) | CSRF where token is duplicated in cookie | practitioner | N/A |
+| 100 | 2026-08-01 | Server-side template injection | Basic server-side template injection | practitioner | N/A |
+| 101 | 2026-08-01 | Server-side template injection | Basic server-side template injection (code context) | practitioner | N/A |
+| 102 | 2026-08-01 | Server-side template injection | Server-side template injection using documentation | practitioner | N/A |
 =======
