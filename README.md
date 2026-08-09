@@ -149,9 +149,9 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 100 | 2026-08-01 | Server-side template injection | Basic server-side template injection | practitioner | N/A |
 | 101 | 2026-08-01 | Server-side template injection | Basic server-side template injection (code context) | practitioner | N/A |
 | 102 | 2026-08-01 | Server-side template injection | Server-side template injection using documentation | practitioner | N/A |
-| 103 | 2026-08-09 | API testing | Exploiting an API endpoint using documentation | apprentice | N/A |
-| 104 | 2026-08-09 | API testing | Exploiting server-side parameter pollution in a query string | practitioner | N/A |
-| 105 | 2026-08-09 | API testing | Finding and exploiting an unused API endpoint | practitioner | N/A |
-| 106 | 2026-08-09 | API testing | Exploiting a mass assignment vulnerability | practitioner | N/A |
-| 107 | 2026-08-09 | API testing | Exploiting server-side parameter pollution in a REST URL | expert | N/A |
+| 103 | 2026-08-03 | API testing | Exploiting an API endpoint using documentation | apprentice | N/A |
+| 104 | 2026-08-03 | API testing | Exploiting server-side parameter pollution in a query string | practitioner | N/A |
+| 105 | 2026-08-04 | API testing | Finding and exploiting an unused API endpoint | practitioner | N/A |
+| 106 | 2026-08-05 | API testing | Exploiting a mass assignment vulnerability | practitioner | N/A |
+| 107 | 2026-08-08 | API testing | Exploiting server-side parameter pollution in a REST URL | expert | N/A |
 =======
