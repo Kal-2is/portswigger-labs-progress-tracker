@@ -1,14 +1,14 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-102-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--01-orange) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-38%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-107-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--09-orange) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-38%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 34 of 61
-- **Practitioner**: 64 of 174
-- **Expert**: 5 of 39
+- **Apprentice**: 35 of 61
+- **Practitioner**: 67 of 174
+- **Expert**: 6 of 39
 
 ## Categories Covered
 
@@ -26,6 +26,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Race conditions**: 6/7
 - **Cross-site request forgery (CSRF)**: 6/14
 - **Server-side template injection**: 3/7
+- **API testing**: 5/5
   
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -148,4 +149,9 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 100 | 2026-08-01 | Server-side template injection | Basic server-side template injection | practitioner | N/A |
 | 101 | 2026-08-01 | Server-side template injection | Basic server-side template injection (code context) | practitioner | N/A |
 | 102 | 2026-08-01 | Server-side template injection | Server-side template injection using documentation | practitioner | N/A |
+| 103 | 2026-08-09 | API testing | Exploiting an API endpoint using documentation | apprentice | N/A |
+| 104 | 2026-08-09 | API testing | Exploiting server-side parameter pollution in a query string | practitioner | N/A |
+| 105 | 2026-08-09 | API testing | Finding and exploiting an unused API endpoint | practitioner | N/A |
+| 106 | 2026-08-09 | API testing | Exploiting a mass assignment vulnerability | practitioner | N/A |
+| 107 | 2026-08-09 | API testing | Exploiting server-side parameter pollution in a REST URL | expert | N/A |
 =======
