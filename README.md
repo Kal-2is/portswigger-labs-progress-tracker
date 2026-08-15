@@ -1,13 +1,13 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-107-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--09-orange) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-38%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-115-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--15-orange) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-40%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 35 of 61
-- **Practitioner**: 67 of 174
+- **Apprentice**: 38 of 61
+- **Practitioner**: 73 of 174
 - **Expert**: 6 of 39
 
 ## Categories Covered
@@ -15,7 +15,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Authentication vulnerabilities**: 14/14 labs
 - **SQL injection**: 8/18 lab
 - **Path Traversal**: 6/6
-- **Cross-site scripting** 7/31
+- **Cross-site scripting** 16/31
 - **Command injection**:5/5
 - **Server-side request forgery (SSRF)**: 7/7
 - **Web cache poisoning**: 9/13
@@ -154,4 +154,12 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 105 | 2026-08-04 | API testing | Finding and exploiting an unused API endpoint | practitioner | N/A |
 | 106 | 2026-08-05 | API testing | Exploiting a mass assignment vulnerability | practitioner | N/A |
 | 107 | 2026-08-08 | API testing | Exploiting server-side parameter pollution in a REST URL | expert | N/A |
+| 108 | 2026-08-12 | Cross-site scripting | Reflected XSS into attribute with angle brackets HTML-encoded | apprentice | N/A |
+| 109 | 2026-08-12 | Cross-site scripting | Stored XSS into anchor href attribute with double quotes HTML-encoded | apprentice | N/A |
+| 110 | 2026-08-13 | Cross-site scripting | Reflected XSS into a JavaScript string with angle brackets HTML encoded | apprentice | N/A |
+| 111 | 2026-08-13 | Cross-site scripting | DOM XSS in AngularJS expression with angle brackets and double quotes HTML-encoded | practitioner | N/A |
+| 112 | 2026-08-14 | Cross-site scripting | Reflected DOM XSS | practitioner | N/A |
+| 113 | 2026-08-14 | Cross-site scripting | Stored DOM XSS | practitioner | N/A |
+| 114 | 2026-08-15 | Cross-site scripting | Reflected XSS into HTML context with all tags blocked except custom ones | practitioner | N/A |
+| 115 | 2026-08-15 | Cross-site scripting | Reflected XSS with some SVG markup allowed | practitioner | N/A |
 =======
