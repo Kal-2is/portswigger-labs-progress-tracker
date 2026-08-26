@@ -1,13 +1,13 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-115-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--15-orange) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-40%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-120-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--26-orange) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-42%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
 - **Apprentice**: 38 of 61
-- **Practitioner**: 73 of 174
+- **Practitioner**: 78 of 174
 - **Expert**: 6 of 39
 
 ## Categories Covered
@@ -27,6 +27,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Cross-site request forgery (CSRF)**: 6/14
 - **Server-side template injection**: 3/7
 - **API testing**: 5/5
+- **HTTP request smuggling**: 5/22
   
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -162,4 +163,9 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 113 | 2026-08-14 | Cross-site scripting | Stored DOM XSS | practitioner | N/A |
 | 114 | 2026-08-15 | Cross-site scripting | Reflected XSS into HTML context with all tags blocked except custom ones | practitioner | N/A |
 | 115 | 2026-08-15 | Cross-site scripting | Reflected XSS with some SVG markup allowed | practitioner | N/A |
+| 116 | 2026-08-25 | HTTP request smuggling | HTTP request smuggling, confirming a CL.TE vulnerability via differential responses | practitioner | N/A |
+| 117 | 2026-08-25 | HTTP request smuggling | HTTP request smuggling, confirming a TE.CL vulnerability via differential responses | practitioner | N/A |
+| 118 | 2026-08-26 | HTTP request smuggling | Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability | practitioner | N/A |
+| 119 | 2026-08-26 | HTTP request smuggling | Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability | practitioner | N/A |
+| 120 | 2026-08-26 | HTTP request smuggling | Exploiting HTTP request smuggling to reveal front-end request rewriting | practitioner | N/A |
 =======
