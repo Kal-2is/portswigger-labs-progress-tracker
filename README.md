@@ -1,13 +1,13 @@
 
 # PortSwigger Web Security Academy - Solved Labs
 
-![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-120-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--26-orange) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-42%25-purple)
+![Total Labs](https://img.shields.io/badge/Total%20Labs%20Solved-124-blue) ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--09--13-orange) ![Level](https://img.shields.io/badge/Level-NEWBIE-green) ![Vulnerability labs](https://img.shields.io/badge/completed-42%25-purple)
 
 This file tracks my progress through [PortSwigger Web Security Academy](https://portswigger.net/web-security) labs. I focus on web app pentesting, documenting key labs as full writeups (linked below) and logging all solves here for reference. Full writeups are reserved for first-time techniques, complex exploits, or custom tools.
 
 ## Level progress
-- **Apprentice**: 38 of 61
-- **Practitioner**: 78 of 174
+- **Apprentice**: 40 of 61
+- **Practitioner**: 80 of 174
 - **Expert**: 6 of 39
 
 ## Categories Covered
@@ -28,6 +28,7 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 - **Server-side template injection**: 3/7
 - **API testing**: 5/5
 - **HTTP request smuggling**: 5/22
+- **XML external entity (XXE) injection**: 4/9
   
 ## Notes
 - **Full Writeups**: Only for significant labs (e.g., chained exploits or scripted solutions). See `platforms/portswigger/` for details.
@@ -168,4 +169,8 @@ This file tracks my progress through [PortSwigger Web Security Academy](https://
 | 118 | 2026-08-26 | HTTP request smuggling | Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability | practitioner | N/A |
 | 119 | 2026-08-26 | HTTP request smuggling | Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability | practitioner | N/A |
 | 120 | 2026-08-26 | HTTP request smuggling | Exploiting HTTP request smuggling to reveal front-end request rewriting | practitioner | N/A |
+| 121 | 2026-09-10 | XML external entity (XXE) injection | Exploiting XXE using external entities to retrieve files | apprentice | N/A |
+| 122 | 2026-09-10 | XML external entity (XXE) injection | Exploiting XXE to perform SSRF attacks | apprentice | N/A |
+| 123 | 2026-09-12 | XML external entity (XXE) injection | Blind XXE with out-of-band interaction | practitioner | N/A |
+| 124 | 2026-09-12 | XML external entity (XXE) injection | Blind XXE with out-of-band interaction via XML parameter entities | practitioner | N/A |
 =======
